@@ -1,6 +1,7 @@
+#include "server.hpp"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
-#include "server.hpp"
+
 
 TEST_CASE("response creation", "[response]") {
   http::response r;
